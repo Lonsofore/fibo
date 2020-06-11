@@ -22,12 +22,14 @@ To test the script install PyTest and run it in script directory.
 
 ## Docker
 
+You also could run the script with Docker.
+
 Build Docker image:
 
-```./build_docker.sh```
+```./docker_build.sh```
 
 And run it:
 
-```./run_docker.sh```
+```./docker_run.sh```
 
 Enter the number when it asks. The result file will be in ./result/fibo.txt file.
